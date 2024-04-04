@@ -8,7 +8,7 @@ import Footer from "../components/Footer.vue";
   <!-- Hero Header Start -->
   <div class="hero-header overflow-hidden px-5">
     <div class="rotate-img">
-      <img src="@/assets/sty-1.png" class="img-fluid w-100" alt="" />
+      <img src="../assets/sty-1.png" class="img-fluid w-100" alt="" />
       <div class="rotate-sty-2"></div>
     </div>
     <div class="row gy-5 align-items-center">
