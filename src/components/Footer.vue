@@ -1,0 +1,85 @@
+<template>
+  <!-- Footer Start -->
+  <div class="container-fluid footer wow fadeIn" data-wow-delay="0.2s">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-md-6 col-lg-6 col-xl-3">
+          <div class="footer-item d-flex flex-column">
+            <h4 class="text-dark mb-4">Lembaga</h4>
+            <a href="https://bappenas.go.id/">
+              Kementerian Perencanaan Pembangunan Nasional / Badan Perencanaan
+              Pembangunan Nasional (Bappenas)</a
+            >
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-3">
+          <div class="footer-item d-flex flex-column">
+            <h4 class="mb-4 text-dark">Menu</h4>
+            <a href="/"> Home</a>
+            <a href="/dashboard"> Dashboard</a>
+            <a href="/ruang-gagasan/#"> Ruang Gagasan</a>
+            <a href="/kontak"> Kontak</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-3">
+          <div class="footer-item d-flex flex-column">
+            <h4 class="mb-4 text-dark">Ruang Gagasan</h4>
+            <a href="/ruang-gagasan/laporan"> Temuan kasus</a>
+            <a href="/ruang-gagasan/pencegahan"> Pencegahan</a>
+            <a href="/ruang-gagasan/pengobatan"> Pengobata</a>
+            <a href="/ruang-gagasan/layanan"> Layanan</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-3">
+          <div class="footer-item d-flex flex-column">
+            <h4 class="mb-4 text-dark">Kontak kami</h4>
+            <a href=""
+              ><i class="fa fa-map-marker-alt me-2"></i> Sekretariat Ruang
+              Gagasan TB Nasional Jl. Taman Suropati No.62 Jakarta 10310</a
+            >
+            <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
+            <a href=""><i class="fas fa-phone me-2"></i> 021-3196207</a>
+
+            <div class="d-flex align-items-center">
+              <i class="fas fa-share fa-2x text-secondary me-2"></i>
+              <a class="btn-square btn btn-primary rounded-circle mx-1" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn-square btn btn-primary rounded-circle mx-1" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn-square btn btn-primary rounded-circle mx-1" href=""
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a class="btn-square btn btn-primary rounded-circle mx-1" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+
+  <!-- Copyright Start -->
+  <div class="container-fluid copyright py-4">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-md-6 text-center text-md-start mb-md-0">
+          <span class="text-white"
+            ><a href="#"
+              ><i class="fas fa-copyright text-light me-2"></i>Bank Gagasan
+              TBC</a
+            >, All right reserved.</span
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Copyright End -->
+</template>
+
+<script>
+export default {};
+</script>
