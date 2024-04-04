@@ -15,9 +15,9 @@
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
             <h4 class="mb-4 text-dark">Menu</h4>
-            <a href="/"> Home</a>
-            <a href="/dashboard"> Dashboard</a>
-            <a href="/ruang-gagasan/#"> Ruang Gagasan</a>
+            <a href="/"> Dashboard</a>
+            <a href="/aksi">Aksi TB</a>
+            <a href="/ruang-gagasan">Ruang Gagasan</a>
             <a href="/kontak"> Kontak</a>
           </div>
         </div>
@@ -41,7 +41,7 @@
             <a href=""><i class="fas fa-phone me-2"></i> 021-3196207</a>
 
             <div class="d-flex align-items-center">
-              <i class="fas fa-share fa-2x text-secondary me-2"></i>
+              <i class="fas fa-share fa-2x text-primary me-2"></i>
               <a class="btn-square btn btn-primary rounded-circle mx-1" href=""
                 ><i class="fab fa-facebook-f"></i
               ></a>

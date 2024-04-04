@@ -76,15 +76,14 @@
 <template>
   <div class="container-fluid header position-relative overflow-hidden p-0">
     <nav
-      class="navbar navbar-expand-lg fixed-top navbar-light px-4 px-lg-5 py-3 py-lg-0"
+      class="navbar navbar-expand-xl fixed-top navbar-light px-4 px-lg-5 py-3 py-lg-0"
     >
-      <a href="/" class="navbar-brand p-0">
-        <img src="/logobg2.png" class="img-thumbnail" alt="" />
-        <!-- <h1 class="display-6 text-primary m-0"> -->
+      <a href="https://bappenas.go.id/" class="navbar-brand p-0">
+        <img src="/lg-bappenas.png" class="img-thumbnail" alt="" />
+      </a>
 
-        <!-- <i class="fas fa-home me-3"></i>BankGagasan -->
-        <!-- </h1> -->
-        <!-- <img src="img/logo.png" alt="Logo"> -->
+      <a href="/" class="navbar-brand p-0">
+        <img src="/lg-gt.png" class="img-thumbnail" alt="" />
       </a>
       <button
         class="navbar-toggler"
@@ -96,40 +95,20 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-0">
-          <a href="/" class="nav-item nav-link active">Deskripsi</a>
-          <a href="/dashboard" class="nav-item nav-link">Dashboard</a>
-          <div class="nav-item dropdown">
-            <a
-              href="#"
-              class="nav-link dropdown-toggle"
-              data-bs-toggle="dropdown"
-              >Ruang Gagasan</a
-            >
-            <div class="dropdown-menu m-0">
-              <a href="/ruang-gagasan/laporan" class="dropdown-item"
-                >Temuan Kasus (Pelaporan)</a
-              >
-              <a href="/ruang-gagasan/pencegahan" class="dropdown-item"
-                >Pencegahan (Preventif)</a
-              >
-              <a href="/ruang-gagasan/pengobatan" class="dropdown-item"
-                >Pengobatan</a
-              >
-              <a href="/ruang-gagasan/layanan" class="dropdown-item"
-                >Pemberian Layanan</a
-              >
-            </div>
-          </div>
-          <!-- <a
-            href="/kontak"
-            class="nav-item nav-link btn btn-light border border-primary rounded-pill text-primary py-2 px-4 me-4"
-            >Contact Us</a
-          > -->
+          <a href="/" class="nav-item nav-link active">Dashboard</a>
+          <a href="/aksi" class="nav-item nav-link">Aksi TBC</a>
         </div>
+
+        <a
+          href="/ruang-gagasan"
+          class="btn btn-primary rounded-pill text-white py-2 px-4 me-4"
+          >Ruang Gagasan</a
+        >
+
         <a
           href="/kontak"
-          class="btn btn-primary rounded-pill text-white py-2 px-4"
-          >Kontak kami</a
+          class="btn btn-light border border-primary rounded-pill text-primary py-2 px-4"
+          >Kontak</a
         >
       </div>
     </nav>

@@ -46,12 +46,12 @@ import { latLng, featureGroup } from "leaflet";
 const tileProviders = [
   {
     name: "Esri Imageri",
-    visible: true,
+    visible: false,
     url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
   },
   {
     name: "OpenStreetMap",
-    visible: false,
+    visible: true,
     attribution:
       '&copy; <a target="_blank" href="http://osm.org/copyright">OpenStreetMap</a> contributors',
     url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
@@ -76,7 +76,7 @@ export default {
       geojson: null,
       bounds: null,
       maxBounds: null,
-      center: [-6.175648391650097, 106.82718498185969],
+      center: [-4.2571930356318015, 111.60735694539179],
       fillColor: "#0CF9E0",
       tileProviders: tileProviders,
     };

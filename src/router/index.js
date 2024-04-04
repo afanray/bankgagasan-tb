@@ -1,7 +1,9 @@
 import { createWebHistory, createRouter } from "vue-router";
 
-import Home from "../views/Deskripsi.vue";
 import Dashboard from "../views/Dashboard.vue";
+import RuangGagasan from "../views/RuangGagasan.vue";
+import Aksi from "../views/Aksi.vue";
+import Sebaran from "../views/Sebaran.vue";
 import Kontak from "../views/Kontak.vue";
 
 import Laporan from "../views/ruanggagasan/Laporan.vue";
@@ -12,18 +14,29 @@ import Pengobatan from "../views/ruanggagasan/Pengobatan.vue";
 const routes = [
   {
     path: "/",
-    name: "home",
-    component: Home,
+    name: "dashboard",
+    component: Dashboard,
+  },
+  {
+    path: "/aksi",
+    name: "aksi",
+    component: Aksi,
   },
   {
     path: "/kontak",
     name: "kontak",
     component: Kontak,
   },
+
   {
-    path: "/dashboard",
-    name: "dashboard",
-    component: Dashboard,
+    path: "/sebaran",
+    name: "sebaran",
+    component: Sebaran,
+  },
+  {
+    path: "/ruang-gagasan",
+    name: "ruanggagasan",
+    component: RuangGagasan,
   },
 
   {
