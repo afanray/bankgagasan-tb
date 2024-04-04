@@ -105,7 +105,7 @@ import Map from "../components/Maps.vue";
 
   // Load the geojson germany map
   // https://cdn.jsdelivr.net/gh/highcharts/highcharts@v7.0.0/samples/data/germany.geo.json
-  const geojson = await fetch("/public/geojson/id-prov.json").then((response) =>
+  const geojson = await fetch("/geojson/id-prov.json").then((response) =>
     response.json()
   );
 
