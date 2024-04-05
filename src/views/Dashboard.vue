@@ -25,16 +25,16 @@ import Footer from "../components/Footer.vue";
         </p>
         <a
           href="/"
-          class="btn btn-primary rounded-pill py-3 px-5 wow fadeInUp"
+          class="btn btn-primary rounded-pill wow fadeInUp"
           data-wow-delay="0.7s"
           >Dashboard TB</a
         >
       </div>
       <div
-        class="col-lg-6 wow justify-content-center fadeInRight"
+        class="col-lg-6 wow align-content-center fadeInRight"
         data-wow-delay="0.2s"
       >
-        <img src="/ilustrasi-1.jpg" class="img-fluid w-80 h-80" alt="" />
+        <img src="/ilustrasi-bg.png" class="img-fluid w-100 h-100" alt="" />
       </div>
     </div>
   </div>

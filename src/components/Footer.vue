@@ -47,22 +47,6 @@
             <a href=""
               ><i class="fas fa-phone me-2"></i> 021-3196207/021 3145374</a
             >
-
-            <div class="d-flex align-items-center">
-              <i class="fas fa-share fa-2x text-primary me-2"></i>
-              <a class="btn-square btn btn-primary rounded-circle mx-1" href=""
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a class="btn-square btn btn-primary rounded-circle mx-1" href=""
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a class="btn-square btn btn-primary rounded-circle mx-1" href=""
-                ><i class="fab fa-instagram"></i
-              ></a>
-              <a class="btn-square btn btn-primary rounded-circle mx-1" href=""
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-            </div>
           </div>
         </div>
       </div>
