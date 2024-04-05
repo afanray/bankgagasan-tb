@@ -44,7 +44,7 @@ import Footer from "../components/Footer.vue";
           <h2 class="display-5 mb-2">Kontak Kami</h2>
           <p class="mb-4">
             Pergunakan berbagai alamat kontak berikut untuk mendapatkan
-            informasi lebih lanjut tentang Manajemen Talenta Nasional.
+            informasi lebih lanjut tentang Ruang Gagasan TBC.
           </p>
           <form>
             <div class="row g-3">
