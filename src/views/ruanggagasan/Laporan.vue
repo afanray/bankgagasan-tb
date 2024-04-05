@@ -37,14 +37,14 @@ import FormInput from "../../components/FormInput.vue";
     </div>
   </div>
   <div>
-    <h2>TOken : {{ token }}</h2>
-    <div v-if="!token">
+    <!-- <h2>TOken : {{ token }}</h2> -->
+    <div>
       <SignIn></SignIn>
     </div>
 
-    <div v-else>
+    <!-- <div v-else>
       <FormInput></FormInput>
-    </div>
+    </div> -->
   </div>
   <div></div>
 
