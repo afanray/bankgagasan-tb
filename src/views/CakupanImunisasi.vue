@@ -54,7 +54,7 @@ import Footer from "../components/Footer.vue";
               <img src="/cakupan-1.png" class="img-fluid w-100 h-100" alt="" />
             </div>
 
-            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+            <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
               <img src="/cakupan-2.png" class="img-fluid w-100 h-100" alt="" />
             </div>
           </div>
