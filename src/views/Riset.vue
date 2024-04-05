@@ -49,7 +49,7 @@ import Footer from "../components/Footer.vue";
         <div class="col-lg">
           <div class="row gy-5 align-items-center">
             <div class="col-lg wow fadeInLeft" data-wow-delay="0.2s">
-              <img src="/riset-1.png" class="img-fluid w-100 h-100" alt="" />
+              <img src="/riset-2.png" class="img-fluid w-100 h-100" alt="" />
             </div>
           </div>
         </div>
