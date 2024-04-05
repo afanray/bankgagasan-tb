@@ -4,12 +4,12 @@
     <div class="container py-5">
       <div class="row g-5">
         <div class="col-md-6 col-lg-6 col-xl-3">
-          <div class="footer-item d-flex flex-column">
-            <a href="https://bappenas.go.id/" class="navbar-brand p-0">
-              <img src="/lg-bappenas.png" class="img-thumbnail" alt="" />
+          <div class="d-flex flex-column">
+            <a href="https://bappenas.go.id/">
+              <img src="/lg-bappenas.png" class="img-thumbnail w-100" alt="" />
             </a>
             <!-- <h4 class="text-dark mb-4">Lembaga</h4> -->
-            <a href="https://bappenas.go.id/">
+            <a href="https://bappenas.go.id/" class="text-dark mt-2">
               Kedeputian Bidang Pembangunan Manusia, Masyarakat, dan Kebudayaan
               Kementerian Perencanaan Pembangunan Nasional/Bappenas</a
             >
@@ -37,10 +37,13 @@
           <div class="footer-item d-flex flex-column">
             <h4 class="mb-4 text-dark">Kontak Info</h4>
             <a href=""
-              ><i class="fa fa-map-marker-alt me-2"></i> Kedeputian Bidang PMMK,
-              Kementerian PPN/Bappenas Jl. Taman Suropati No.2, Jakarta 10310</a
+              ><i class="fa fa-home me-2"></i> Kedeputian Bidang PMMK,
+              Kementerian PPN/Bappenas.</a
             >
-
+            <a href=""
+              ><i class="fa fa-map-marker-alt me-2"></i> Jl. Taman Suropati
+              No.2, Jakarta 10310</a
+            >
             <a href=""
               ><i class="fas fa-phone me-2"></i> 021-3196207/021 3145374</a
             >

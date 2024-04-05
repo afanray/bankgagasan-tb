@@ -19,9 +19,9 @@ import Footer from "../components/Footer.vue";
         <p class="fs-5 mb-4 wow fadeInUp" data-wow-delay="0.5s">
           TBC merupakan singkatan dari Tuberkulosis dan termasuk dalam golongan
           penyakit menular. Penyakit ini disebabkan adanya bakteri Mycobacterium
-          Tuberculosis(M.Tb), yang dapat menyerang siapa saja dan bagian organ
-          tubuh yang diserang biasanya pada paru-paru, tulang belakang, kulit,
-          otak, kelenjar getah bening dan jantung.
+          Tuberculosis(M.Tb). Bakteri M.Tb dapat menyerang berbagai kelompok
+          usia dan bagian organ tubuh yang diserang biasanya pada paru-paru,
+          tulang belakang, kulit, otak, kelenjar getah bening dan jantung.
         </p>
         <a
           href="/"
