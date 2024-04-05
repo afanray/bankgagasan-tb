@@ -109,30 +109,31 @@ export default {
         };
       };
     },
-    onEachFeatureFunction() {
-      if (!this.enableTooltip) {
-        return () => {};
-      }
-      return (feature, layer) => {
-        layer.bindTooltip(
-          `<div>Provinsi:` +
-            feature.properties.WADMPR +
-            `</div>` +
-            `<div>Kasus: ` +
-            feature.properties.KASUS +
-            `</div>`,
-          {
-            permanent: false,
-            sticky: true,
-          }
-        );
-      };
-    },
+    // onEachFeatureFunction() {
+    //   if (!this.enableTooltip) {
+    //     return () => {};
+    //   }
+    //   return (feature, layer) => {
+    //     layer.bindTooltip(
+    //       `<div>Provinsi:` +
+    //         feature.properties.WADMPR +
+    //         `</div>` +
+    //         `<div>Kasus: ` +
+    //         feature.properties.KASUS +
+    //         `</div>`,
+    //       {
+    //         permanent: false,
+    //         sticky: true,
+    //       }
+    //     );
+    //   };
+    // },
   },
 
   async created() {
     const response = await fetch("/public/geojson/tb-2022.geojson");
     this.geojson = await response.json();
+    // console.log(this.geojson);
   },
 };
 </script>
