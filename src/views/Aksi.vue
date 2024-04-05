@@ -63,7 +63,7 @@ import Footer from "../components/Footer.vue";
                 style="max-width: 900px"
               >
                 <div class="container-fluid py-2 align-content-center">
-                  <div class="row px-2 justify-content-center">
+                  <div class="row justify-content-center">
                     <div class="col-lg-2 btn btn-primary m-2">
                       <p class="justify-content-center">
                         Target Insidensi Tuberculosis (per 100.000 penduduk)
