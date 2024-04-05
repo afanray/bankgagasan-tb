@@ -230,14 +230,26 @@ import Footer from "../components/Footer.vue";
                     <h4 class="mb-1 text-primary">Tentang Kami</h4>
                     <h1 class="display-5 mb-4"></h1>
                     <p class="mb-4">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Repudiandae, quae voluptate non sapiente labore tempora
-                      accusamus architecto, aut, quibusdam rem reiciendis nemo
-                      voluptas iste culpa a totam alias in harum!
+                      Gagasan TBC adalah ruang publik untuk bertemu, mendapatkan
+                      informasi akurat, serta berbagi gagasan untuk pencegahan
+                      dan pengobatan TBC yang efektif. Dalam portal Gagasan TBC
+                      ini terdapat 3 menu utama: (1) Dashboard; (2) Aksi TBC;
+                      dan (3) Ruang Gagasan. Kita dapat menyimak berita terkini,
+                      data statistik, serta konten edukasi dalam dashboard
+                      Gagasan. Seiring dengan perkembangan teknologi dan
+                      tantangan yang dihadapi, Pemerintah terus berupaya
+                      maksimal dalam kegiatan preventif & kuratif TBC. Upaya
+                      tersebut tercantum dalam Strategi Rencana Aksi pada menu
+                      Aksi TBC. Penanganan TBC Nasional dapat berjalan optimal
+                      dengan dukungan kolektif bersama, sehingga anda dapat
+                      berperan aktif dalam penanganan TBC Nasional dengan cara
+                      menyampaikan gagasan-gagasan anda dalam menu Ruang Gagasan
+                      pada portal ini. Mari kita dukung Indonesia Sehat menuju
+                      Indonesia Emas 2045!
                     </p>
-                    <a href="#" class="btn btn-primary rounded-pill py-3 px-5"
+                    <!-- <a href="#" class="btn btn-primary rounded-pill py-3 px-5"
                       >Selengkapnya...</a
-                    >
+                    > -->
                   </div>
                 </div>
               </div>

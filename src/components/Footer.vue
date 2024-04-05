@@ -5,7 +5,10 @@
       <div class="row g-5">
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
-            <h4 class="text-dark mb-4">Lembaga</h4>
+            <a href="https://bappenas.go.id/" class="navbar-brand p-0">
+              <img src="/lg-bappenas.png" class="img-thumbnail" alt="" />
+            </a>
+            <!-- <h4 class="text-dark mb-4">Lembaga</h4> -->
             <a href="https://bappenas.go.id/">
               Kedeputian Bidang Pembangunan Manusia, Masyarakat, dan Kebudayaan
               Kementerian Perencanaan Pembangunan Nasional/Bappenas</a
@@ -32,7 +35,7 @@
         </div>
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
-            <h4 class="mb-4 text-dark">Kontak kami</h4>
+            <h4 class="mb-4 text-dark">Kontak Info</h4>
             <a href=""
               ><i class="fa fa-map-marker-alt me-2"></i> Sekretariat Ruang
               Gagasan TB Nasional Jl. Taman Suropati No.02 Jakarta 10310</a
