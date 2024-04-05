@@ -142,7 +142,8 @@ import Footer from "../components/Footer.vue";
             <div class="blog-content text-dark border p-4">
               <h5 class="mb-4">Pemberian Layanan</h5>
               <p class="mb-4">
-                Menemui kendala dalam pelayanan penanggulangan TB.
+                Memberikan gagasan dalam meningkatkan pelayanan penanggulangan
+                TBC
               </p>
               <a
                 class="btn btn-light rounded-pill py-2 px-4"
