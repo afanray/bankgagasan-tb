@@ -34,7 +34,7 @@ import Footer from "../components/Footer.vue";
         class="col-lg-6 wow align-content-center fadeInRight"
         data-wow-delay="0.2s"
       >
-        <img src="/ilustrasi-bg.png" class="img-fluid w-100 h-100" alt="" />
+        <img src="/ilustrasi-1.jpg" class="img-fluid w-80 h-80" alt="" />
       </div>
     </div>
   </div>
