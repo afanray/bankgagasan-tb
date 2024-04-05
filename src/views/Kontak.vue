@@ -41,7 +41,7 @@ import Footer from "../components/Footer.vue";
     <div class="container">
       <div class="row g-5 align-items-center">
         <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
-          <h2 class="display-5 mb-2">Kontak Kami</h2>
+          <!-- <h2 class="display-5 mb-2">Kontak Kami</h2> -->
           <p class="mb-4">
             Pergunakan berbagai alamat kontak berikut untuk mendapatkan
             informasi lebih lanjut tentang Ruang Gagasan TBC.
@@ -129,13 +129,14 @@ import Footer from "../components/Footer.vue";
               <i class="fa fa-home fa-2x text-primary"></i>
             </div>
             <div class="ms-4">
-              <h4>Lembaga</h4>
+              <h4>Lokasi</h4>
               <p class="mb-0">
-                Kementerian Perencanaan Pembangunan Nasional / Badan Perencanaan
-                Pembangunan Nasional (Bappenas)
+                Kedeputian Bidang Pembangunan Manusia, Masyarakat, dan
+                Kebudayaan Kementerian Perencanaan Pembangunan Nasional/Bappenas
               </p>
             </div>
           </div>
+
           <div class="d-flex align-items-center mb-4">
             <div
               class="bg-light d-flex align-items-center justify-content-center mb-3"
@@ -146,8 +147,8 @@ import Footer from "../components/Footer.vue";
             <div class="ms-4">
               <h4>Lokasi</h4>
               <p class="mb-0">
-                Sekretariat Ruang Gagasan TB Nasional Jl. Taman Suropati No.62
-                Jakarta 10310
+                Kedeputian Bidang PMMK, Kementerian PPN/Bappenas. <br />
+                Jl. Taman Suropati No.2, Jakarta 10310
               </p>
             </div>
           </div>
@@ -160,52 +161,7 @@ import Footer from "../components/Footer.vue";
             </div>
             <div class="ms-4">
               <h4>Telepon</h4>
-              <p class="mb-0">021-3196207</p>
-            </div>
-          </div>
-          <div class="d-flex align-items-center mb-4">
-            <div
-              class="bg-light d-flex align-items-center justify-content-center mb-3"
-              style="width: 90px; height: 90px; border-radius: 50px"
-            >
-              <i class="fa fa-envelope-open fa-2x text-primary"></i>
-            </div>
-            <div class="ms-4">
-              <h4>Email</h4>
-              <p class="mb-0">info@example.com</p>
-              <p class="mb-0">info@example.com</p>
-            </div>
-          </div>
-          <div class="d-flex align-items-center">
-            <div class="me-4">
-              <div
-                class="bg-light d-flex align-items-center justify-content-center"
-                style="width: 90px; height: 90px; border-radius: 50px"
-              >
-                <i class="fas fa-share fa-2x text-primary"></i>
-              </div>
-            </div>
-            <div class="d-flex">
-              <a
-                class="btn btn-lg-square btn-primary rounded-circle me-2"
-                href=""
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a
-                class="btn btn-lg-square btn-primary rounded-circle mx-2"
-                href=""
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a
-                class="btn btn-lg-square btn-primary rounded-circle mx-2"
-                href=""
-                ><i class="fab fa-instagram"></i
-              ></a>
-              <a
-                class="btn btn-lg-square btn-primary rounded-circle mx-2"
-                href=""
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
+              <p class="mb-0">021-3196207/ 021 3145374</p>
             </div>
           </div>
         </div>
