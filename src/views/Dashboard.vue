@@ -17,11 +17,11 @@ import Footer from "../components/Footer.vue";
           Apa itu TBC
         </h1>
         <p class="fs-5 mb-4 wow fadeInUp" data-wow-delay="0.5s">
-          TBC merupakan singkatan dari Tuberkulosis, dimana penyakit ini
-          termasuk dalam golongan menular. Penyakit ini disebabkan adanya
-          bakteri Mycobacterium Tuberculosis(M.Tb), yang dapat menyerang siapa
-          saja dan bagian organ tubuh yang diserang biasanya pada paru-paru,
-          tulang belakang, kulit, otak, kelenjar getah bening dan jantung.
+          TBC merupakan singkatan dari Tuberkulosis dan termasuk dalam golongan
+          penyakit menular. Penyakit ini disebabkan adanya bakteri Mycobacterium
+          Tuberculosis(M.Tb), yang dapat menyerang siapa saja dan bagian organ
+          tubuh yang diserang biasanya pada paru-paru, tulang belakang, kulit,
+          otak, kelenjar getah bening dan jantung.
         </p>
         <a
           href="/"
