@@ -37,8 +37,8 @@
           <div class="footer-item d-flex flex-column">
             <h4 class="mb-4 text-dark">Kontak Info</h4>
             <a href=""
-              ><i class="fa fa-map-marker-alt me-2"></i> Sekretariat Ruang
-              Gagasan TB Nasional Jl. Taman Suropati No.02 Jakarta 10310</a
+              ><i class="fa fa-map-marker-alt me-2"></i> Kedeputian Bidang PMMK,
+              Kementerian PPN/Bappenas Jl. Taman Suropati No.2, Jakarta 10310</a
             >
 
             <a href=""
