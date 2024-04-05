@@ -96,6 +96,11 @@ import Footer from "../../components/Footer.vue";
                 <label for="subject">Subject</label>
               </div>
             </div>
+            <div class="mb-3">
+              <label for="img" class="form-label">Tambahkan Foto</label>
+              <input class="form-control" type="file" id="img" />
+            </div>
+
             <div class="col-12">
               <div class="form-floating">
                 <textarea

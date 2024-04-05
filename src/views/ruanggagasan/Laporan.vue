@@ -37,13 +37,14 @@ import FormInput from "../../components/FormInput.vue";
     </div>
   </div>
   <div>
-    <div>
+    <h2>TOken : {{ token }}</h2>
+    <div v-if="!token">
       <SignIn></SignIn>
     </div>
 
-    <!-- <div v-else>
+    <div v-else>
       <FormInput></FormInput>
-    </div> -->
+    </div>
   </div>
   <div></div>
 
@@ -56,7 +57,7 @@ import { ref } from "vue";
 
 export default {
   setup() {
-    const token = ref(0);
+    const token = ref(true);
 
     return {
       token,
