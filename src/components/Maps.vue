@@ -115,12 +115,12 @@ export default {
       }
       return (feature, layer) => {
         layer.bindTooltip(
-          "<div>Provinsi: " +
+          `<div>Provinsi:` +
             feature.properties.WADMPR +
-            "</div>" +
-            "<div>Kasus: " +
+            `</div>` +
+            `<div>Kasus: ` +
             feature.properties.KASUS +
-            "</div>",
+            `</div>`,
           {
             permanent: false,
             sticky: true,
