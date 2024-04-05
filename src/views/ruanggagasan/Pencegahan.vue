@@ -120,7 +120,7 @@ import Footer from "../../components/Footer.vue";
               </div>
             </div>
             <div class="col-12">
-              <button class="btn btn-primary w-100 py-3">Kirim Laporan</button>
+              <button class="btn btn-primary w-100 py-3">Kirim Gagasan</button>
             </div>
           </div>
         </form>

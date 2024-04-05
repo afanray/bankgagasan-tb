@@ -26,6 +26,12 @@
         <button class="w-100 btn btn-lg btn-primary" type="submit">
           Masuk
         </button>
+        <div class="py-2">
+          <p>
+            Belum memiliki akun
+            <a href="/register" class="text-primary">Silahkah daftar</a>
+          </p>
+        </div>
       </form>
     </main>
   </div>
