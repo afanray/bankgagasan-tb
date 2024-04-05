@@ -6,7 +6,7 @@ import {
   LMarker,
   LGeoJson,
 } from "@vue-leaflet/vue-leaflet";
-import { latLng, featureGroup } from "leaflet";
+import { latLng, featureGroup, geoJson } from "leaflet";
 </script>
 
 <template>
@@ -30,7 +30,7 @@ import { latLng, featureGroup } from "leaflet";
       />
 
       <l-geo-json
-        :name="`DataTB`"
+        :name="'Kasus TB 2022'"
         v-if="show"
         :geojson="geojson"
         :options="options"
@@ -48,6 +48,7 @@ const tileProviders = [
     name: "Esri Imageri",
     visible: false,
     url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+    attribution: "Tiles &copy; Esri ",
   },
   {
     name: "OpenStreetMap",
@@ -67,29 +68,29 @@ export default {
     LGeoJson,
     LMarker,
   },
+  props: ["datamarkers"],
   data() {
     return {
-      loading: true,
       show: true,
       enableTooltip: true,
-      zoom: 4,
-      geojson: null,
+      zoom: 5,
+      center: [-0.9702233008715109, 115.66244636597672],
       bounds: null,
       maxBounds: null,
-      center: [-4.2571930356318015, 111.60735694539179],
+      geojson: null,
       fillColor: "#0CF9E0",
       tileProviders: tileProviders,
     };
   },
   methods: {
     async getBatasDesa() {
-      this.loading = true;
-      const response = await fetch("/geojson/kasustb2022.geojson");
-      const data = await response.json();
-      this.geojson = data;
-      this.loading = false;
+      // const response = await fetch("/public/geojson/tb-2022.geojson");
+      // const data = await response.json();
+      // this.geojson = data;
+      // console.log(data);
     },
   },
+
   computed: {
     options() {
       return {
@@ -104,7 +105,7 @@ export default {
           color: "#000000",
           opacity: 1,
           fillColor: fillColor,
-          fillOpacity: 0.5,
+          fillOpacity: 0.8,
         };
       };
     },
@@ -114,7 +115,12 @@ export default {
       }
       return (feature, layer) => {
         layer.bindTooltip(
-          "<div>Dusun: " + feature.properties.dusun + "</div>",
+          "<div>Provinsi: " +
+            feature.properties.WADMPR +
+            "</div>" +
+            "<div>Kasus: " +
+            feature.properties.KASUS +
+            "</div>",
           {
             permanent: false,
             sticky: true,
@@ -122,6 +128,11 @@ export default {
         );
       };
     },
+  },
+
+  async created() {
+    const response = await fetch("/public/geojson/tb-2022.geojson");
+    this.geojson = await response.json();
   },
 };
 </script>

@@ -70,8 +70,8 @@ import Footer from "../components/Footer.vue";
               </div>
             </div>
             <div class="blog-content text-dark border p-4">
-              <h5 class="mb-4">Temuan Kasus</h5>
-              <p class="mb-4">
+              <h5 class="mb-2">Temuan Kasus</h5>
+              <p class="mb-2">
                 Mendengar atau menemui kasus TBC, laporkan disini.
               </p>
               <a
@@ -94,8 +94,8 @@ import Footer from "../components/Footer.vue";
               </div>
             </div>
             <div class="blog-content text-dark border p-4">
-              <h5 class="mb-4">Pencegahan (Preventif)</h5>
-              <p class="mb-4">Kamu punya gagasan terkait pencegahan TBC.</p>
+              <h5 class="mb-2">Pencegahan (Preventif)</h5>
+              <p class="mb-2">Kamu punya gagasan terkait pencegahan TBC.</p>
               <a
                 class="btn btn-light rounded-pill py-2 px-4"
                 href="/ruang-gagasan/pencegahan"
@@ -116,8 +116,8 @@ import Footer from "../components/Footer.vue";
               </div>
             </div>
             <div class="blog-content text-dark border p-4">
-              <h5 class="mb-4">Pengobatan</h5>
-              <p class="mb-4">
+              <h5 class="mb-2">Pengobatan</h5>
+              <p class="mb-2">
                 Memiliki ide atau gagasan terkait pengobatan TB yang efisien.
               </p>
               <a
@@ -140,8 +140,8 @@ import Footer from "../components/Footer.vue";
               </div>
             </div>
             <div class="blog-content text-dark border p-4">
-              <h5 class="mb-4">Pemberian Layanan</h5>
-              <p class="mb-4">
+              <h5 class="mb-2">Pemberian Layanan</h5>
+              <p class="mb-2">
                 Memberikan gagasan dalam meningkatkan pelayanan penanggulangan
                 TBC
               </p>
