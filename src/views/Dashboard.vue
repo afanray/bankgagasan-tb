@@ -233,11 +233,11 @@ import Footer from "../components/Footer.vue";
                       Gagasan TBC adalah ruang publik untuk bertemu, mendapatkan
                       informasi akurat, serta berbagi gagasan untuk pencegahan
                       dan pengobatan TBC yang efektif. Dalam portal Gagasan TBC
-                      ini terdapat 3 menu utama: (1) Dashboard; (2) Aksi TBC;
-                      dan (3) Ruang Gagasan. Kita dapat menyimak berita terkini,
-                      data statistik, serta konten edukasi dalam dashboard
-                      Gagasan. Seiring dengan perkembangan teknologi dan
-                      tantangan yang dihadapi, Pemerintah terus berupaya
+                      ini terdapat 4 menu utama: (1) Dashboard; (2) Aksi TBC;
+                      (3) Ruang Gagasan; dan (4) Kontak. Kita dapat menyimak
+                      berita terkini, data statistik, serta konten edukasi dalam
+                      dashboard Gagasan. Seiring dengan perkembangan teknologi
+                      dan tantangan yang dihadapi, Pemerintah terus berupaya
                       maksimal dalam kegiatan preventif & kuratif TBC. Upaya
                       tersebut tercantum dalam Strategi Rencana Aksi pada menu
                       Aksi TBC. Penanganan TBC Nasional dapat berjalan optimal
