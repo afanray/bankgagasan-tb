@@ -39,6 +39,15 @@ import Footer from "../../components/Footer.vue";
     <!-- Hero Header Start -->
     <div class="row align-items-center">
       <div class="col-lg wow fadeInLeft" data-wow-delay="0.1s">
+        <ul>
+          <li>
+            Data pribadi yang diinput pada formulir akan dijaga kerahasiannya.
+          </li>
+          <li>
+            Informasi yang disampaikan harus berbasis fakta dan data sebenarnya.
+          </li>
+        </ul>
+
         <form>
           <div class="row g-3">
             <div class="col-lg-12 col-xl-6">

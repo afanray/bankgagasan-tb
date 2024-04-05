@@ -58,7 +58,7 @@ const routes = [
     component: Riset,
   },
   {
-    path: "/ruang-gagasan",
+    path: "/info-tbc",
     name: "ruanggagasan",
     component: RuangGagasan,
   },

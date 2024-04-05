@@ -157,11 +157,23 @@ import Footer from "../components/Footer.vue";
               class="bg-light d-flex align-items-center justify-content-center mb-3"
               style="width: 90px; height: 90px; border-radius: 50px"
             >
+              <i class="fa fa-envelope-open fa-2x text-primary"></i>
+            </div>
+            <div class="ms-4">
+              <h4>Email</h4>
+              <p class="mb-0">sekretariat.pm2k@bappenas.go.id</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center mb-4">
+            <div
+              class="bg-light d-flex align-items-center justify-content-center mb-3"
+              style="width: 90px; height: 90px; border-radius: 50px"
+            >
               <i class="fa fa-phone-alt fa-2x text-primary"></i>
             </div>
             <div class="ms-4">
               <h4>Telepon</h4>
-              <p class="mb-0">021-3196207/ 021 3145374</p>
+              <p class="mb-0">+62 21 3926603</p>
             </div>
           </div>
         </div>

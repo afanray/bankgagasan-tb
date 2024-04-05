@@ -95,15 +95,16 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-0">
-          <a href="/" class="nav-item nav-link active">Dashboard</a>
-          <a href="/aksi" class="nav-item nav-link">Aksi TBC</a>
+          <a href="/" class="nav-item nav-link">Ruang Gagasan</a>
+          <a href="/aksi" class="nav-item nav-link active">Aksi TBC</a>
+          <a href="/info-tbc" class="nav-item nav-link">Info TBC</a>
         </div>
 
-        <a
+        <!-- <a
           href="/ruang-gagasan"
           class="btn btn-primary rounded-pill text-white py-2 px-4 me-4"
           >Ruang Gagasan</a
-        >
+        > -->
 
         <a
           href="/kontak"

@@ -44,9 +44,12 @@
               ><i class="fa fa-map-marker-alt me-2"></i> Jl. Taman Suropati
               No.2, Jakarta 10310</a
             >
+
             <a href=""
-              ><i class="fas fa-phone me-2"></i> 021-3196207/021 3145374</a
+              ><i class="fas fa-envelope me-2"></i>
+              sekretariat.pm2k@bappenas.go.id</a
             >
+            <a href=""><i class="fas fa-phone me-2"></i> +62 21 3926603</a>
           </div>
         </div>
       </div>
