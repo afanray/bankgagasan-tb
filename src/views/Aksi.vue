@@ -30,10 +30,12 @@ import Footer from "../components/Footer.vue";
         data-wow-delay="0.3s"
       >
         <li class="breadcrumb-item">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis
-          rem ducimus repellat atque cupiditate! Facilis harum numquam
-          voluptatum? Ipsa nemo, corporis libero provident deserunt consequatur
-          cum dignissimos rem dolore beatae.
+          Pemerintah terus berupaya maksimal dalam kegiatan preventif & kuratif
+          TBC. Penanganan TBC Nasional dapat berjalan optimal dengan dukungan
+          kolektif bersama, sehingga anda dapat berperan aktif dalam penanganan
+          TBC Nasional dengan cara menyampaikan gagasan-gagasan anda dalam menu
+          Ruang Gagasan pada portal ini. Mari kita dukung Indonesia Sehat menuju
+          Indonesia Emas 2045!
         </li>
         <!-- <li class="breadcrumb-item"><a href="#">Pages</a></li>
         <li class="breadcrumb-item active text-primary">Aksi TBC</li> -->
