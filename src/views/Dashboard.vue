@@ -47,7 +47,7 @@ import Footer from "../components/Footer.vue";
         data-wow-delay="0.1s"
         style="max-width: 900px"
       >
-        <h1 class="display-5 mb-4">Sekilas TB</h1>
+        <h1 class="display-5 mb-4">Sekilas TBC</h1>
         <p class="mb-0">
           "Menyaring, mengumpulkan aspirasi dari masyarakat tentang
           penanggulangan TB".
@@ -158,7 +158,7 @@ import Footer from "../components/Footer.vue";
   </div>
   <!-- Service End -->
 
-  <!-- dashboard Start -->
+  <!-- aksi Start -->
   <div class="container-fluid service px-5 py-5">
     <div class="container">
       <div
@@ -196,10 +196,62 @@ import Footer from "../components/Footer.vue";
       </div>
     </div>
   </div>
-  <!-- dashboard End -->
+  <!-- aksi End -->
+
+  <!-- video Start -->
+  <div class="container-fluid service px-5">
+    <div class="container">
+      <div
+        class="text-center mx-auto mb-5 wow fadeInUp"
+        data-wow-delay="0.1s"
+        style="max-width: 900px"
+      >
+        <h1 class="display-5 mb-4">Simak Informasi TBC</h1>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md col-lg wow fadeInUp py-2" data-wow-delay="0.3s">
+          <div class="container align-content-center mb-5">
+            <div class="row">
+              <div class="col-lg">
+                <div class="row gy-5 align-items-center">
+                  <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/CDV3pXcc_qg?si=_NUcUEcyCAxSNkSY"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                    <h4 class="mb-1 text-primary">Tentang Kami</h4>
+                    <h1 class="display-5 mb-4"></h1>
+                    <p class="mb-4">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Repudiandae, quae voluptate non sapiente labore tempora
+                      accusamus architecto, aut, quibusdam rem reiciendis nemo
+                      voluptas iste culpa a totam alias in harum!
+                    </p>
+                    <a href="#" class="btn btn-primary rounded-pill py-3 px-5"
+                      >Selengkapnya...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- </div> -->
+  <!-- video End -->
 
   <!-- About Start -->
-  <div
+  <!-- <div
     class="container-fluid overflow-hidden px-5 py-2"
     style="margin-top: 2rem"
   >
@@ -225,7 +277,7 @@ import Footer from "../components/Footer.vue";
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- About End -->
 
   <Footer></Footer>

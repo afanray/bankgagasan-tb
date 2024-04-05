@@ -7,8 +7,8 @@
           <div class="footer-item d-flex flex-column">
             <h4 class="text-dark mb-4">Lembaga</h4>
             <a href="https://bappenas.go.id/">
-              Kementerian Perencanaan Pembangunan Nasional / Badan Perencanaan
-              Pembangunan Nasional (Bappenas)</a
+              Kedeputian Bidang Pembangunan Manusia, Masyarakat, dan Kebudayaan
+              Kementerian Perencanaan Pembangunan Nasional/Bappenas</a
             >
           </div>
         </div>
@@ -26,7 +26,7 @@
             <h4 class="mb-4 text-dark">Ruang Gagasan</h4>
             <a href="/ruang-gagasan/laporan"> Temuan kasus</a>
             <a href="/ruang-gagasan/pencegahan"> Pencegahan</a>
-            <a href="/ruang-gagasan/pengobatan"> Pengobata</a>
+            <a href="/ruang-gagasan/pengobatan"> Pengobatan</a>
             <a href="/ruang-gagasan/layanan"> Layanan</a>
           </div>
         </div>
@@ -35,10 +35,12 @@
             <h4 class="mb-4 text-dark">Kontak kami</h4>
             <a href=""
               ><i class="fa fa-map-marker-alt me-2"></i> Sekretariat Ruang
-              Gagasan TB Nasional Jl. Taman Suropati No.62 Jakarta 10310</a
+              Gagasan TB Nasional Jl. Taman Suropati No.02 Jakarta 10310</a
             >
-            <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
-            <a href=""><i class="fas fa-phone me-2"></i> 021-3196207</a>
+
+            <a href=""
+              ><i class="fas fa-phone me-2"></i> 021-3196207/021 3145374</a
+            >
 
             <div class="d-flex align-items-center">
               <i class="fas fa-share fa-2x text-primary me-2"></i>

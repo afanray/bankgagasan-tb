@@ -2,6 +2,7 @@
 import Navbar from "../../components/Navbar.vue";
 import Footer from "../../components/Footer.vue";
 import SignIn from "../../components/SingIn.vue";
+import FormInput from "../../components/FormInput.vue";
 </script>
 
 <template>
@@ -36,13 +37,34 @@ import SignIn from "../../components/SingIn.vue";
     </div>
   </div>
   <div>
-    <SignIn></SignIn>
+    <div>
+      <SignIn></SignIn>
+    </div>
+
+    <!-- <div v-else>
+      <FormInput></FormInput>
+    </div> -->
   </div>
+  <div></div>
 
   <!-- Header End -->
 
   <Footer></Footer>
 </template>
 <script>
-export default {};
+import { ref } from "vue";
+
+export default {
+  setup() {
+    const token = ref(0);
+
+    return {
+      token,
+    };
+  },
+
+  mounted() {
+    // console.log(this.token); // 0
+  },
+};
 </script>
