@@ -95,7 +95,19 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-0">
-          <a href="/" class="nav-item nav-link">Ruang Gagasan</a>
+          <button type="button" class="btn">
+            <a
+              class="btn-primary py-3 px-3 text-white rounded-pill"
+              href="/"
+              role="button"
+              >Ruang Gagasan</a
+            >
+          </button>
+
+          <!-- <div class="btn btn-primary">
+            <a href="/" class="nav-item nav-link text-white">Ruang Gagasan</a>
+          </div> -->
+
           <a href="/aksi" class="nav-item nav-link active">Aksi TBC</a>
           <a href="/info-tbc" class="nav-item nav-link">Info TBC</a>
         </div>

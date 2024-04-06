@@ -41,7 +41,7 @@ import Footer from "../../components/Footer.vue";
       <div class="col-lg wow fadeInLeft" data-wow-delay="0.1s">
         <ul>
           <li>
-            Data pribadi yang diinput pada formulir akan dijaga kerahasiannya.
+            Data pribadi yang diinput pada formulir akan dijaga kerahasiaannya.
           </li>
           <li>
             Informasi yang disampaikan harus berbasis fakta dan data sebenarnya.

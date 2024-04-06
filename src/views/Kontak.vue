@@ -131,22 +131,6 @@ import Footer from "../components/Footer.vue";
             <div class="ms-4">
               <h4>Lokasi</h4>
               <p class="mb-0">
-                Kedeputian Bidang Pembangunan Manusia, Masyarakat, dan
-                Kebudayaan Kementerian Perencanaan Pembangunan Nasional/Bappenas
-              </p>
-            </div>
-          </div>
-
-          <div class="d-flex align-items-center mb-4">
-            <div
-              class="bg-light d-flex align-items-center justify-content-center mb-3"
-              style="width: 90px; height: 90px; border-radius: 50px"
-            >
-              <i class="fa fa-map-marker-alt fa-2x text-primary"></i>
-            </div>
-            <div class="ms-4">
-              <h4>Lokasi</h4>
-              <p class="mb-0">
                 Kedeputian Bidang PMMK, Kementerian PPN/Bappenas. <br />
                 Jl. Taman Suropati No.2, Jakarta 10310
               </p>

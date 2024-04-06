@@ -73,18 +73,18 @@ import Footer from "../components/Footer.vue";
                     <div
                       class="col-lg-2 btn btn-primary m-2 align-content-center"
                     >
-                      <p class="justify-content-center">
-                        Tahun 2025: <br />
-                        274
-                      </p>
+                      <div class="justify-content-center">
+                        <p>Tahun 2025:</p>
+                        <h1 class="text-white">274</h1>
+                      </div>
                     </div>
                     <div
                       class="col-lg-2 btn btn-primary m-2 align-content-center"
                     >
-                      <p class="justify-content-center">
-                        Tahun 2045: <br />
-                        76
-                      </p>
+                      <div class="justify-content-center">
+                        <p>Tahun 2045:</p>
+                        <h1 class="text-white">76</h1>
+                      </div>
                     </div>
                   </div>
                 </div>
