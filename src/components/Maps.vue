@@ -132,7 +132,7 @@ export default {
   },
 
   async created() {
-    const response = await fetch("/public/geojson/tb-2022.geojson");
+    const response = await fetch("/public/geojson/tb-2022x.geojson");
     this.geojson = await response.json();
     console.log(this.geojson);
   },
