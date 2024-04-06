@@ -83,14 +83,14 @@ export default {
       tileProviders: tileProviders,
     };
   },
-  methods: {
-    async getBatasDesa() {
-      const response = await fetch("/public/geojson/tb-2022.geojson");
-      const data = await response.json();
-      this.geojson = data;
-      console.log(data);
-    },
-  },
+  // methods: {
+  //   async getBatasDesa() {
+  //     const response = await fetch("/public/geojson/tb-2022.geojson");
+  //     const data = await response.json();
+  //     this.geojson = data;
+  //     console.log(data);
+  //   },
+  // },
 
   computed: {
     options() {
@@ -98,19 +98,7 @@ export default {
         onEachFeature: this.onEachFeatureFunction,
       };
     },
-    // getcolorFunction(d) {
-    //   return d > 34765
-    //     ? "#ec3737"
-    //     : d > 1983
-    //     ? "#ef6060"
-    //     : d > 10973
-    //     ? "#f38a8a"
-    //     : d > 5741
-    //     ? "#f6b4b4"
-    //     : d > 10
-    //     ? "##f9dede"
-    //     : "#FFEDA0";
-    // },
+
     styleFunction() {
       const fillColor = this.fillColor;
       return () => {
