@@ -5,6 +5,7 @@ import {
   LTileLayer,
   LMarker,
   LGeoJson,
+  LControl,
 } from "@vue-leaflet/vue-leaflet";
 import { latLng, featureGroup, geoJson } from "leaflet";
 </script>
@@ -31,6 +32,16 @@ import { latLng, featureGroup, geoJson } from "leaflet";
         layer-type="overlay"
         :options-style="styleFunction"
       />
+
+      <l-control :position="'bottomleft'" class="example-custom-control">
+        <div class="container bg-white py-2">
+          <p class="text-primary">Peta Beban Kasus TBC 2022</p>
+          <img src="/legenda.svg" class="img-fluid w-20 h-20 mt-0" alt="" />
+        </div>
+      </l-control>
+      <!-- <l-control :position="'bottomleft'" class="custom-control-watermark">
+        Vue2Leaflet Watermark Control
+      </l-control> -->
     </l-map>
     <!-- {{ datamarkers }} -->
   </div>
@@ -61,6 +72,7 @@ export default {
     LTileLayer,
     LGeoJson,
     LMarker,
+    LControl,
   },
   // props: ["datamarkers"],
 
