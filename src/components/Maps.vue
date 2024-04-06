@@ -68,7 +68,7 @@ export default {
     LGeoJson,
     LMarker,
   },
-  props: ["datamarkers"],
+  // props: ["datamarkers"],
 
   data() {
     return {
@@ -76,20 +76,18 @@ export default {
       enableTooltip: true,
       zoom: 5,
       center: [-0.9702233008715109, 115.66244636597672],
-      bounds: null,
-      maxBounds: null,
       geojson: null,
       fillColor: "#0CF9E0",
       tileProviders: tileProviders,
     };
   },
-  // methods: {
-  // async getgeojson() {
-  // const response = await fetch("/public/geojson/tb-2022.geojson");
-  // const data = await response.json();
-  // this.geojson = data;
-  //   },
-  // },
+  methods: {
+    async getMaps() {
+      const response = await fetch("/public/geojson/tb-2022x.geojson");
+      this.geojson = await response.json();
+      console.log("method get");
+    },
+  },
 
   computed: {
     options() {
@@ -132,10 +130,16 @@ export default {
     },
   },
 
-  async created() {
-    const response = await fetch("/public/geojson/tb-2022x.geojson");
-    this.geojson = await response.json();
-    console.log(this.geojson);
+  // async created() {
+  //   const response = await fetch("/public/geojson/tb-2022x.geojson");
+  //   this.geojson = await response.json();
+  //   console.log(this.geojson);
+  // },
+  mounted() {
+    // const queryParameters = this.$route.query;
+    // this.kode = queryParameters.kode;
+    this.getMaps();
+    // this.getSebaran()
   },
 };
 </script>
