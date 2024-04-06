@@ -84,11 +84,10 @@ export default {
     };
   },
   // methods: {
-  //   async getBatasDesa() {
-  //     const response = await fetch("/public/geojson/tb-2022.geojson");
-  //     const data = await response.json();
-  //     this.geojson = data;
-  //     console.log(data);
+  // async getgeojson() {
+  // const response = await fetch("/public/geojson/tb-2022.geojson");
+  // const data = await response.json();
+  // this.geojson = data;
   //   },
   // },
 
@@ -136,6 +135,7 @@ export default {
   async created() {
     const response = await fetch("/public/geojson/tb-2022x.geojson");
     this.geojson = await response.json();
+    console.log(this.geojson);
   },
 };
 </script>
