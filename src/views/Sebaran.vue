@@ -36,13 +36,39 @@ import Maps from "../components/Maps.vue";
   </div>
   <!-- Header End -->
 
-  <div class="fluis align-content-center py-2 px-2">
-    <div class="row">
-      <div class="col-lg py-2 px-2">
-        <Maps></Maps>
+  <div class="container-fluid hero-header blog py-5 align-content-center">
+    <div class="container">
+      <div class="rotate-img">
+        <img src="/sty-1.png" class="img-fluid w-100" alt="" />
+        <div class="rotate-sty-2"></div>
+      </div>
+    </div>
+
+    <div class="container align-content-center mb-5">
+      <div class="row">
+        <div class="col-lg">
+          <div class="row gy-5 align-items-center">
+            <div class="col-lg wow fadeInLeft" data-wow-delay="0.2s">
+              <img
+                src="/peta-sebaran.png"
+                class="img-fluid w-100 h-100"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+
+  <!-- <div class="fluis align-content-center py-2 px-2">
+    <div class="row">
+      <div class="col-lg py-2 px-2">
+        <Maps></Maps>
+
+      </div>
+    </div>
+  </div> -->
 
   <Footer></Footer>
 </template>
