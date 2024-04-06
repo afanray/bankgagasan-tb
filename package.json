@@ -1,5 +1,6 @@
 {
   "name": "bankgagasan-tbc",
+  "proxy": "https://bankgagasan-tb-git-staging-afanrays-projects.vercel.app/sebaran",
   "private": true,
   "version": "0.0.0",
   "type": "module",
