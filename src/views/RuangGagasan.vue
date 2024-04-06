@@ -17,8 +17,8 @@ import Footer from "../components/Footer.vue";
       >
         <h1 class="display-5 mb-4">Sekilas TBC</h1>
         <p class="mb-0">
-          "Menyaring, mengumpulkan aspirasi dari masyarakat tentang
-          penanggulangan TB".
+          "Menyaring dan mengumpulkan aspirasi dari masyarakat tentang
+          penanggulangan TBC"
         </p>
       </div>
       <div class="row justify-content-center">
@@ -198,7 +198,16 @@ import Footer from "../components/Footer.vue";
               informasi akurat, serta berbagi gagasan untuk pencegahan dan
               pengobatan TBC yang efektif. Dalam portal Gagasan TBC ini terdapat
               4 menu utama: (1) Ruang Gagasan; (2) Aksi TBC; (3) Info TBC; dan
-              (4) Kontak.
+              (4) Kontak. Kita dapat menyimak berita terkini, data statistik,
+              serta konten edukasi dalam Info TBC. Seiring dengan perkembangan
+              teknologi dan tantangan yang dihadapi, Pemerintah terus berupaya
+              maksimal dalam kegiatan preventif & kuratif TBC. Upaya tersebut
+              tercantum dalam Strategi Rencana Aksi pada menu Aksi TBC.
+              Penanganan TBC Nasional dapat berjalan optimal dengan dukungan
+              kolektif bersama, sehingga anda dapat berperan aktif dalam
+              penanganan TBC Nasional dengan cara menyampaikan gagasan-gagasan
+              anda dalam menu Ruang Gagasan pada portal ini. Mari kita dukung
+              Indonesia Sehat menuju Indonesia Emas 2045!
             </p>
           </div>
         </div>

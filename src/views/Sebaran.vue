@@ -62,10 +62,10 @@ import Maps from "../components/Maps.vue";
   </div>
 
   <!-- <div class="fluis align-content-center py-2 px-2">
-    <div class="row">
-      <div class="col-lg py-2 px-2">
-        <Maps></Maps>
-
+      <div class="row">
+        <div class="col-lg py-2 px-2">
+          <Maps></Maps>
+        </div>
       </div>
     </div>
   </div> -->

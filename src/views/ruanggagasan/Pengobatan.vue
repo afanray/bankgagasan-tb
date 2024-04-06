@@ -39,14 +39,9 @@ import Footer from "../../components/Footer.vue";
     <!-- Hero Header Start -->
     <div class="row align-items-center">
       <div class="col-lg wow fadeInLeft" data-wow-delay="0.1s">
-        <ul>
-          <li>
-            Data pribadi yang diinput pada formulir akan dijaga kerahasiaannya.
-          </li>
-          <li>
-            Informasi yang disampaikan harus berbasis fakta dan data sebenarnya.
-          </li>
-        </ul>
+        <p>
+          Data pribadi yang diinput pada formulir akan dijaga kerahasiaannya.
+        </p>
         <form>
           <div class="row g-3">
             <div class="col-lg-12 col-xl-6">
@@ -119,6 +114,11 @@ import Footer from "../../components/Footer.vue";
                 <label for="message">Tulis laporan anda disini</label>
               </div>
             </div>
+            <ul>
+              Dengan ini saya menyatakan bahwa semua informasi yang disampaikan
+              adalah benar dan dapat dipertanggungjawabkan.
+            </ul>
+
             <div class="col-12">
               <button class="btn btn-primary w-100 py-3">Kirim Gagasan</button>
             </div>
