@@ -66,6 +66,7 @@ export default {
 
   data() {
     return {
+      loading: true,
       show: true,
       enableTooltip: true,
       zoom: 5,
@@ -77,43 +78,14 @@ export default {
   },
   methods: {
     async getSebaran() {
-      // let responseClone; // 1
-      // fetch("/public/geojson/tb-2022x.geojson")
-      //   .then(function (response) {
-      //     responseClone = response.clone(); // 2
-      //     return response.json();
-      //   })
-      //   .then(
-      //     function (data) {
-      //       // Do something with data
-      //       // console.log(data);
-      //     },
-      //     function (rejectionReason) {
-      //       console.log(responseClone);
-      //       this.geojson = responseClone;
-      // 3
-      // console.log(
-      //   "Error parsing JSON from response:",
-      //   rejectionReason,
-      //   responseClone
-      // ); // 4
-      // responseClone
-      //   .text() // 5
-      //   .then(function (bodyText) {
-      //     console.log(
-      //       "Received the following instead of valid JSON:",
-      //       bodyText
-      //     ); // 6
-      //   });
-      //   }
-      // );
+      this.loading = true;
+      const response = await fetch("/geojson/tb-2022x.geojson");
+      const data = await response.json();
+      this.geojson = data;
+      this.loading = false;
 
-      const response = await fetch("/public/geojson/tb-2022x.geojson");
-
-      const obj = JSON.parse(await response.text());
-      this.geojson = obj;
-
-      console.log(obj);
+      // const obj = JSON.parse(await response.text());
+      // this.geojson = obj;
     },
   },
 
