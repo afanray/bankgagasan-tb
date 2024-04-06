@@ -77,9 +77,43 @@ export default {
   },
   methods: {
     async getSebaran() {
+      // let responseClone; // 1
+      // fetch("/public/geojson/tb-2022x.geojson")
+      //   .then(function (response) {
+      //     responseClone = response.clone(); // 2
+      //     return response.json();
+      //   })
+      //   .then(
+      //     function (data) {
+      //       // Do something with data
+      //       // console.log(data);
+      //     },
+      //     function (rejectionReason) {
+      //       console.log(responseClone);
+      //       this.geojson = responseClone;
+      // 3
+      // console.log(
+      //   "Error parsing JSON from response:",
+      //   rejectionReason,
+      //   responseClone
+      // ); // 4
+      // responseClone
+      //   .text() // 5
+      //   .then(function (bodyText) {
+      //     console.log(
+      //       "Received the following instead of valid JSON:",
+      //       bodyText
+      //     ); // 6
+      //   });
+      //   }
+      // );
+
       const response = await fetch("/public/geojson/tb-2022x.geojson");
-      this.geojson = await response.json();
-      // console.log(this.geojson);
+
+      const obj = JSON.parse(await response.text());
+      this.geojson = obj;
+
+      console.log(obj);
     },
   },
 
