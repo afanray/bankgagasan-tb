@@ -19,9 +19,9 @@
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
             <h4 class="mb-4 text-dark">Menu</h4>
-            <a href="/"> Dashboard</a>
-            <a href="/aksi">Aksi TB</a>
-            <a href="/ruang-gagasan">Ruang Gagasan</a>
+            <a href="/"> Ruang Gagasan</a>
+            <a href="/aksi">Aksi TBC</a>
+            <a href="/ruang-gagasan">Info TBC</a>
             <a href="/kontak"> Kontak</a>
           </div>
         </div>
