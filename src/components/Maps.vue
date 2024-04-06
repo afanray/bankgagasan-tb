@@ -82,10 +82,10 @@ export default {
     };
   },
   methods: {
-    async getMaps() {
+    async getSebaran() {
       const response = await fetch("/public/geojson/tb-2022x.geojson");
       this.geojson = await response.json();
-      console.log("method get");
+      console.log(this.geojson);
     },
   },
 
@@ -138,8 +138,8 @@ export default {
   mounted() {
     // const queryParameters = this.$route.query;
     // this.kode = queryParameters.kode;
-    this.getMaps();
-    // this.getSebaran()
+    // this.getMaps();
+    this.getSebaran();
   },
 };
 </script>
