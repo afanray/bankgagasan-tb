@@ -50,7 +50,7 @@ import Maps from "../components/Maps.vue";
           <div class="row gy-5 align-items-center">
             <div class="col-lg wow fadeInLeft" data-wow-delay="0.2s">
               <img
-                src="/peta-sebaran2.png"
+                src="/peta-kasus-tb.png"
                 class="img-fluid w-100 h-100"
                 alt=""
               />
