@@ -30,7 +30,7 @@ import { latLng, featureGroup, geoJson } from "leaflet";
       />
 
       <l-geo-json
-        :name="'Kasus TB 2022'"
+        :name="'Beban Kasus TB 2022'"
         v-if="show"
         :geojson="geojson"
         :options="options"
@@ -98,6 +98,19 @@ export default {
         onEachFeature: this.onEachFeatureFunction,
       };
     },
+    // getcolorFunction(d) {
+    //   return d > 34765
+    //     ? "#ec3737"
+    //     : d > 1983
+    //     ? "#ef6060"
+    //     : d > 10973
+    //     ? "#f38a8a"
+    //     : d > 5741
+    //     ? "#f6b4b4"
+    //     : d > 10
+    //     ? "##f9dede"
+    //     : "#FFEDA0";
+    // },
     styleFunction() {
       const fillColor = this.fillColor;
       return () => {
@@ -115,6 +128,7 @@ export default {
         return () => {};
       }
       return (feature, layer) => {
+        layer.options.fillColor = feature.properties.COLOR;
         layer.bindTooltip(
           `<div>Provinsi:` +
             feature.properties.WADMPR +
@@ -134,7 +148,6 @@ export default {
   async created() {
     const response = await fetch("/public/geojson/tb-2022x.geojson");
     this.geojson = await response.json();
-    this.fillColor = console.log(this.geojson);
   },
 };
 </script>

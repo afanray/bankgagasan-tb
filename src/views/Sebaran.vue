@@ -44,7 +44,7 @@ import Maps from "../components/Maps.vue";
       </div>
     </div>
 
-    <div class="container align-content-center mb-5">
+    <!-- <div class="container align-content-center mb-5">
       <div class="row">
         <div class="col-lg">
           <div class="row gy-5 align-items-center">
@@ -59,16 +59,16 @@ import Maps from "../components/Maps.vue";
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <!-- <div class="fluis align-content-center py-2 px-2">
+    <div class="fluis align-content-center py-2 px-2">
       <div class="row">
         <div class="col-lg py-2 px-2">
           <Maps></Maps>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
 
   <Footer></Footer>
 </template>
