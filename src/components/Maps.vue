@@ -83,7 +83,7 @@ export default {
   },
   methods: {
     async getSebaran() {
-      const response = await fetch("/public/geojson/tb-2022x.geojson");
+      const response = await fetch("/public/geojson/tb-2022x.json");
       this.geojson = await response.json();
       console.log(this.geojson);
     },

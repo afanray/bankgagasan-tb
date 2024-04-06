@@ -1,6 +1,5 @@
 {
   "name": "bankgagasan-tbc",
-  "proxy": "http://localhost:5173/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
