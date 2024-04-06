@@ -177,10 +177,10 @@ import Footer from "../components/Footer.vue";
             </div>
           </div>
         </div>
-        <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="rounded h-100">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.388683563531!2d106.82761117526991!3d-6.212359860850844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f592130eaefd%3A0x9034f2ef55124adc!2sMenara%20Bappenas!5e0!3m2!1sid!2sid!4v1712171770821!5m2!1sid!2sid"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d507334.53258064156!2d106.41589155906107!3d-6.578202150461419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f41720e59d2b%3A0x3c98760322e6a486!2sKementerian%20Perencanaan%20Pembangunan%20Nasional%2FBadan%20Perencanaan%20Pembangunan%20Nasional%20(Kementerian%20PPN%2FBappenas)!5e0!3m2!1sid!2sid!4v1712367125017!5m2!1sid!2sid"
               width="600"
               height="450"
               style="border: 0"
@@ -188,6 +188,38 @@ import Footer from "../components/Footer.vue";
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+          <div class="flex align-content-around mb-4">
+            <div class="ms-4 mb-4">
+              <h4>Link Terkait</h4>
+            </div>
+            <div class="ms-4">
+              <a href="https://bappenas.go.id/">
+                <img src="/lg-bappenas.png" class="img-thumbnail w-50" alt="" />
+              </a>
+              <!-- <p class="mb-0">
+                Kementerian Perencanaan Pembangunan Nasional/Bappenas
+              </p> -->
+            </div>
+          </div>
+
+          <div class="d-flex align-content-lg-start mb-4">
+            <div class="ms-4">
+              <a href="https://kemkes.go.id/">
+                <img src="/kemkes.png" class="img-thumbnail w-50" alt="" />
+              </a>
+              <!-- <p class="mb-0">Kementerian Kesehatan Republik Indonesia</p> -->
+            </div>
+          </div>
+          <div class="flex align-content-lg-start mb-4">
+            <div class="ms-4">
+              <a href="https://tbindonesia.or.id/">
+                <img src="/tb-id.png" class="img-thumbnail w-50" alt="" />
+              </a>
+              <!-- <p class="mb-0">TB Indonesia</p> -->
+            </div>
           </div>
         </div>
       </div>

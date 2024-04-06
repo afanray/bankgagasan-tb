@@ -15,6 +15,7 @@
             >
           </div>
         </div>
+
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
             <h4 class="mb-4 text-dark">Menu</h4>

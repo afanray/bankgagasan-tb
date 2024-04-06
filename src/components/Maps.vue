@@ -69,6 +69,7 @@ export default {
     LMarker,
   },
   props: ["datamarkers"],
+
   data() {
     return {
       show: true,
@@ -84,10 +85,10 @@ export default {
   },
   methods: {
     async getBatasDesa() {
-      // const response = await fetch("/public/geojson/tb-2022.geojson");
-      // const data = await response.json();
-      // this.geojson = data;
-      // console.log(data);
+      const response = await fetch("/public/geojson/tb-2022.geojson");
+      const data = await response.json();
+      this.geojson = data;
+      console.log(data);
     },
   },
 
@@ -109,31 +110,31 @@ export default {
         };
       };
     },
-    // onEachFeatureFunction() {
-    //   if (!this.enableTooltip) {
-    //     return () => {};
-    //   }
-    //   return (feature, layer) => {
-    //     layer.bindTooltip(
-    //       `<div>Provinsi:` +
-    //         feature.properties.WADMPR +
-    //         `</div>` +
-    //         `<div>Kasus: ` +
-    //         feature.properties.KASUS +
-    //         `</div>`,
-    //       {
-    //         permanent: false,
-    //         sticky: true,
-    //       }
-    //     );
-    //   };
-    // },
+    onEachFeatureFunction() {
+      if (!this.enableTooltip) {
+        return () => {};
+      }
+      return (feature, layer) => {
+        layer.bindTooltip(
+          `<div>Provinsi:` +
+            feature.properties.WADMPR +
+            `</div>` +
+            `<div>Kasus: ` +
+            feature.properties.KASUS +
+            `</div>`,
+          {
+            permanent: false,
+            sticky: true,
+          }
+        );
+      };
+    },
   },
 
   async created() {
     const response = await fetch("/public/geojson/tb-2022.geojson");
     this.geojson = await response.json();
-    // console.log(this.geojson);
+    console.log(this.geojson);
   },
 };
 </script>
