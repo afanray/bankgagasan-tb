@@ -11,13 +11,7 @@ import { latLng, featureGroup, geoJson } from "leaflet";
 
 <template>
   <div class="">
-    <l-map
-      :zoom="zoom"
-      :center="center"
-      :bounds="bounds"
-      :max-bounds="maxBounds"
-      style="height: 500px; width: 100%"
-    >
+    <l-map :zoom="zoom" :center="center" style="height: 500px; width: 100%">
       <l-control-layers position="topright"></l-control-layers>
       <l-tile-layer
         v-for="tileProvider in tileProviders"
@@ -83,9 +77,9 @@ export default {
   },
   methods: {
     async getSebaran() {
-      const response = await fetch("/public/geojson/tb-2022x.json");
+      const response = await fetch("/public/geojson/tb-2022x.geojson");
       this.geojson = await response.json();
-      console.log(this.geojson);
+      // console.log(this.geojson);
     },
   },
 
